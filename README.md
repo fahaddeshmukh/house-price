@@ -67,8 +67,3 @@ The modules.py script contains utility functions used by the house.py script to 
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
 
-```
-Please copy the updated Markdown content and save it as `README.md` in your repository.
-Additionally, make sure to include the `LICENSE.md`, `requirements.txt`, and `docs` directory in your project structure.
-Modify the `description.txt` file inside the `docs` directory to include a description of your project.
-```
