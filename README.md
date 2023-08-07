@@ -1,7 +1,7 @@
 
 ## House price prediction using Machine learning
 
-### Author: Fahad Deshmukh
+
 
 ### Overview
 
@@ -16,7 +16,21 @@ To use this script, you need to have Python installed on your system (3.8 or hig
 ```
 pip install -r requirements.txt
 ```
+## Directories
 
+The project is structured as follows:
+
+- **bin**: This directory contains the source code files required to run the analysis.
+  - `house.py`: This Python script is the main entry point for running the project. It contains the code that reads the dataset and performs various data processing, visualization and modelling tasks.
+ 
+  - `house.ipynb`: This Jupyter Notebook file provides an alternative interface for running the analysis interactively. It contains the same code as `house.py` but provides easy accessablity along with a narrative.
+
+- **data**: This directory contains the dataset used for the analysis.
+  - `train.csv`: The CSV file that contains the data on the sale price of various properties. The file is required for running the analysis. Please ensure that it is located in this directory.
+
+- **modules**: This directory contains the modules used project.
+- `modules.py`: The modules.py script contains utility functions used by the house.py script to preprocess data and evaluate models.
+- **plots**: This directory contains the EDA plots used for the analysis.
 ## Usage
 
 The script requires two input files: house.py and train.csv. Place these files in the data directory of your project. Then, run the following command to execute the preprocessing script:
@@ -66,4 +80,11 @@ The modules.py script contains utility functions used by the house.py script to 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+
+## Contact Information
+For any questions, suggestions, or issues, please feel free to contact:
+
+- Name: Fahad Deshmukh
+- Email: deshmukh@uni-potsdam.de
+
 
